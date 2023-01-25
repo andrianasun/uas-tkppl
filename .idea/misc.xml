@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_account.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_email.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_phone.xml" value="0.15925925925925927" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_button_bg.xml" value="0.14270833333333333" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_loading.xml" value="0.1" />
       </map>
     </option>
   </component>
