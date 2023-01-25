@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_button_bg.xml" value="0.14270833333333333" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--    My color-->
+    <color name="main_yellow_color">#FFF246</color>
+    <color name="soft_yellow">#F1EDB4</color>
+    <color name="white_bg">#F8F8F8</color>
+    <color name="grey">#707070</color>
+    <color name="textColorWhite">#FFFFFFFF</color>
+    <color name="textColorBlack">#FF000000</color>
+    <color name="leftCardColor">#D3D3D3</color>
+    <color name="rightCardColor">#D6D7D7</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent_grey">#C3C1C1</color>
 </resources>
