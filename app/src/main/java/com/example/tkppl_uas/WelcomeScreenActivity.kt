@@ -10,13 +10,15 @@ class WelcomeScreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome_screen)
 
-        fun onSignInClick(view: View) {
-            val intent = Intent(this, SigninActivity::class.java)
-            startActivity(intent)
-        }
-        fun onSignUpClick(view: View) {
-            val intent = Intent(this, SignupActivity::class.java)
-            startActivity(intent)
-        }
+
+    }
+
+    fun onSignInClick(view: View) {
+        val intent = Intent(this, SigninActivity::class.java)
+        startActivity(intent)
+    }
+    fun onSignUpClick(view: View) {
+        val intent = Intent(this, SignupActivity::class.java)
+        startActivity(intent)
     }
 }
