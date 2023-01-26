@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="somuliHomeTitle" parent="">
+        <item name="android:textSize">@dimen/text35</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+
+    <style name="titleText" parent="">
+        <item name="android:textSize">@dimen/text25</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+
+    <style name="subTitleText" parent="">
+        <item name="android:textSize">@dimen/text20</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+    <style name="normalText" parent="">
+        <item name="android:textSize">@dimen/text12</item>
+    </style>
+    <style name="itemText" parent="">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+    </style>
+
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#000</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="CircularImageView" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

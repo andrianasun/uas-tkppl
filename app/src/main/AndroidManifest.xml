@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tkppluas">
         <activity
+            android:name=".AllCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classes.AllCategoriesActivity"
+            android:exported="false" />
+        <activity
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
