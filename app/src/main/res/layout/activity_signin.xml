@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SigninActivity">
+    android:layout_margin="@dimen/margin_page"
+    tools:context=".SigninActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvWelcomeUser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_user"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvDescSignIn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_to_continue"
+        android:textSize="@dimen/normal_text_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_page">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true">
+            <EditText
+                android:id="@+id/etUsername2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item_large"
+                android:hint="@string/username"
+                android:inputType="textPersonName"
+                android:drawableEnd="@drawable/ic_account"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:counterEnabled="true"
+            app:counterMaxLength="10"
+            app:passwordToggleEnabled="true"
+            app:errorEnabled="true">
+            <EditText
+                android:id="@+id/etPassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item_large"
+                android:hint="@string/password"
+                android:inputType="textPersonName|textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvForgetPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="onForgotPassClick"
+            android:text="@string/forgot_password"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btnSignin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_item_small"
+            android:onClick="onSignInClick"
+            android:text="@string/sign_in_button"
+            android:background="@drawable/style_button_bg"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_item_small"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvDoYouHaveAccount3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_account"
+            android:textSize="@dimen/normal_text_size" />
+
+        <TextView
+            android:id="@+id/tvSignIn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onSignUpTVClick"
+            android:layout_marginLeft="@dimen/margin_item_small"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_page">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_item_small"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            android:onClick="onBackBtnClicked"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text18"
+            android:textStyle="bold"
+            android:text="@string/forgot_pass" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:textSize="@dimen/text20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textColorBlack"
+        android:text="@string/enter_phone_number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:textSize="@dimen/text18"
+        android:gravity="center_horizontal"
+        android:text="@string/enter_phone_number_instruction"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true">
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_item_large"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:drawableEnd="@drawable/ic_phone"
+            android:paddingHorizontal="@dimen/padding_item_small"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:background="@drawable/style_button_bg"
+        android:onClick="onSendClick"
+        android:text="@string/send"/>
+</LinearLayout>

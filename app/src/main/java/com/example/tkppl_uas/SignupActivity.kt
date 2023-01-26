@@ -1,11 +1,11 @@
 package com.example.tkppl_uas
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.tkppl_uas.classes.classLoadingDialogBar
 import kotlinx.android.synthetic.main.activity_signup.*
 
@@ -63,4 +63,5 @@ class SignupActivity : AppCompatActivity() {
         val loading = classLoadingDialogBar(this, 1000)
         loading.startLoading()
     }
+
 }

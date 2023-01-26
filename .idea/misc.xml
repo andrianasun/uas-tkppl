@@ -11,6 +11,15 @@
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_loading.xml" value="0.1" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_back.xml" value="0.204" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_forgot_pass.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_forgot_pass_confirm_code.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_forgot_password_confirmation.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_signin.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_signin2.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_goto_signin.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

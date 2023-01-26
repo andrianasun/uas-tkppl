@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassConfirmCodeActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_item_small"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:onClick="onBackBtnClicked"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text_size"
+            android:text="@string/forgot_pass" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:textSize="@dimen/text20"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textColorBlack"
+        android:text="@string/enter_otp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:textSize="@dimen/text18"
+        android:gravity="center_horizontal"
+        android:text="@string/enter_otp_instruction"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/inputCode1"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/textColorBlack"
+            android:textStyle="bold"
+            android:editable="false"
+            tools:ignore="LabelFor"/>
+        <EditText
+            android:id="@+id/inputCode2"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/textColorBlack"
+            android:textStyle="bold"
+            tools:ignore="LabelFor"/>
+        <EditText
+            android:id="@+id/inputCode3"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/textColorBlack"
+            android:textStyle="bold"
+            tools:ignore="LabelFor"/>
+        <EditText
+            android:id="@+id/inputCode4"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="@color/textColorBlack"
+            android:textStyle="bold"
+            tools:ignore="LabelFor"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_item_large"
+        android:background="@drawable/style_button_bg"
+        android:onClick="onSendClick"
+        android:text="@string/send"
+        tools:ignore="OnClick" />
+
+
+</LinearLayout>
