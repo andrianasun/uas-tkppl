@@ -1,4 +1,4 @@
-package com.example.project
+package com.example.tkppl_uas
 
 import android.content.Intent
 import android.os.Bundle

@@ -13,6 +13,12 @@
             android:name=".SigninActivity"
             android:exported="false" />
         <activity
+            android:name=".ForgotPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPassConfirmCodeActivity"
             android:exported="false" />
         <activity
@@ -22,7 +28,7 @@
             android:name=".ForgotPassActivity"
             android:exported="false" />
         <activity
-            android:name=".classes.ForgotPassActivity"
+            android:name=".ForgotPassActivity"
             android:exported="false" />
         <activity
             android:name=".SignupActivity"

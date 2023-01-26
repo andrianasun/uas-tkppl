@@ -1,4 +1,4 @@
-package com.example.project
+package com.example.tkppl_uas
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,6 @@ import android.os.Handler
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.tkppl_uas.R
 import com.example.tkppl_uas.classes.classLoadingDialogBar
 import kotlin.random.Random
 

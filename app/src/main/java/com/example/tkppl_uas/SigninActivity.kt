@@ -6,7 +6,6 @@ import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.project.ForgotPassActivity
 import com.example.tkppl_uas.classes.classLoadingDialogBar
 import kotlinx.android.synthetic.main.activity_signin.*
 
