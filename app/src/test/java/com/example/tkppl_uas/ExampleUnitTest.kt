@@ -1,4 +1,4 @@
-package com.example.tkppl_uas
+package com.example.project
 
 import org.junit.Test
 
