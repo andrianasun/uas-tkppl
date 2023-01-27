@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tkppluas">
         <activity
+            android:name=".OrderRecordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddressListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddressActivity"
+            android:exported="false" />
+        <activity
             android:name=".CheckoutActivity"
             android:exported="false" />
         <activity
