@@ -6,4 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".EditProfileActivity">
 
+
+    <TextView
+        android:id="@+id/tvOnlyServe"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_yellow_color"
+        android:paddingHorizontal="@dimen/padding10"
+        android:text="@string/only_serve"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Edit profile"
+        style="@style/titleText"
+        android:layout_marginStart="@dimen/margin20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_username"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        app:errorEnabled="true"
+        android:layout_marginTop="@dimen/margin50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProfile">
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="381dp"
+            android:layout_height="55dp"
+            android:clickable="false"
+            android:drawableEnd="@drawable/ic_account"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_email"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="@dimen/margin10"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_username">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="381dp"
+            android:layout_height="55dp"
+            android:drawableEnd="@drawable/ic_email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_password"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="@dimen/margin10"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:errorEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_email"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="381dp"
+            android:layout_height="55dp"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_phone"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="@dimen/margin10"
+        app:boxStrokeColor="#FFF246"
+        app:errorEnabled="true"
+        app:hintTextColor="#FFF246"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_password">
+
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="381dp"
+            android:layout_height="55dp"
+            android:drawableEnd="@drawable/ic_phone"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="12"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="358dp"
+        android:layout_height="47dp"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/margin30"
+        android:onClick="onBtnSaveProfileClicked"
+        android:text="Save profile"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_phone" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
