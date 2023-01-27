@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tkppluas">
         <activity
+            android:name=".NotificationDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddAddressActivity"
             android:exported="false" />
         <activity
