@@ -27,15 +27,19 @@
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_check.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_circle.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_close.xml" value="0.204" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_greater.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_more.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_star.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_img_view_store_profile.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_rating_background.xml" value="0.204" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_checkout.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_product_detail.xml" value="0.2" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_shopping_cart.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_nego_fail.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_nego_success.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_negotiation.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dropdown_product_weight_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_recycle_view_shopping_cart.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
