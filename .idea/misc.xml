@@ -4,20 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_account.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_account2.xml" value="0.1388888888888889" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_address.xml" value="0.1388888888888889" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_chat.xml" value="0.11851851851851852" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_email.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_logout.xml" value="0.1388888888888889" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_notification.xml" value="0.1361111111111111" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_phone.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_settings.xml" value="0.1388888888888889" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_button_bg.xml" value="0.14270833333333333" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_search_view_custom.xml" value="0.1361111111111111" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_all_categories.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_notification_detail.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_order_record.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_signin.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_loading.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_signout.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_address_list.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_categories.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_categories_see_all.xml" value="0.1" />

@@ -1,9 +1,237 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NotificationDetailActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_yellow_color"
+        android:paddingHorizontal="@dimen/padding10"
+        android:text="@string/only_serve"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/settings"
+                style="@style/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin50"
+                android:text="Ordered"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin50"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintTop_toBottomOf="@+id/settings"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="1dp" />
+
+            <TextView
+                android:id="@+id/txt_deliveryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Delivery date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <TextView
+                android:id="@+id/dateSaturday"
+                style="@style/subTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Saturday, December 21"
+                app:layout_constraintStart_toStartOf="@+id/txt_deliveryDate"
+                app:layout_constraintTop_toBottomOf="@+id/txt_deliveryDate" />
+
+            <TextView
+                android:id="@+id/jamAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="10:00 AM"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/dateSaturday"
+                app:layout_constraintStart_toStartOf="@+id/dateSaturday"
+                app:layout_constraintTop_toBottomOf="@+id/dateSaturday" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jamAddress"
+                tools:ignore="DuplicateIds,MissingConstraints" />
+
+            <TextView
+                android:id="@+id/txt_deliveryAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Delivery address"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider2" />
+
+            <TextView
+                android:id="@+id/homeAddress"
+                style="@style/subTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Home"
+                app:layout_constraintStart_toStartOf="@+id/txt_deliveryAddress"
+                app:layout_constraintTop_toBottomOf="@+id/txt_deliveryAddress" />
+
+            <TextView
+                android:id="@+id/streetAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="42 M.H.Thamrin Street, Medan, Sumatera Utara"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/homeAddress"
+                app:layout_constraintTop_toBottomOf="@+id/homeAddress" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/streetAddress" />
+
+            <TextView
+                android:id="@+id/tvPaymentMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Payment Method"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider3" />
+
+            <TextView
+                android:id="@+id/tvPayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="OVO"
+                style="@style/subTitleText"
+                app:layout_constraintStart_toStartOf="@+id/homeAddress"
+                app:layout_constraintTop_toBottomOf="@+id/tvPaymentMethod" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="409dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvPayment" />
+
+            <TextView
+                android:id="@+id/tvOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Order"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/divider4" />
+
+            <TextView
+                android:id="@+id/tvOrderTitle"
+                style="@style/subTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Today"
+                app:layout_constraintStart_toStartOf="@+id/tvOrder"
+                app:layout_constraintTop_toBottomOf="@+id/tvOrder" />
+
+            <TextView
+                android:id="@+id/tvStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Aling Sayur"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/tvOrderTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvOrderTitle" />
+
+            <TextView
+                android:id="@+id/tvSumItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/margin20"
+                android:text="3 items"
+                app:layout_constraintBottom_toBottomOf="@+id/tvStore"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tvStore"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/tvTotal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Rp33.000,00"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/tvSumItem"
+                app:layout_constraintTop_toBottomOf="@+id/tvSumItem" />
+
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="Total"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/tvStore"
+                app:layout_constraintTop_toBottomOf="@+id/tvStore" />
+
+            <Button
+                android:id="@+id/Back"
+                android:layout_width="358dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="@dimen/margin30"
+                android:text="Back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTotal" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
