@@ -71,14 +71,14 @@ class AccountFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
-        Thread(Runnable {
-            val bitmap = processBitmap("https://i.mydramalist.com/jlqObf.jpg")
-            ivProfile.post {
-                println("Menambahkan gambar");
-                ivProfile.setImageBitmap(bitmap)
-            }
-        }).start()
+//
+//        Thread(Runnable {
+//            val bitmap = processBitmap("https://i.mydramalist.com/jlqObf.jpg")
+//            ivProfile.post {
+//                println("Menambahkan gambar");
+//                ivProfile.setImageBitmap(bitmap)
+//            }
+//        }).start()
 
 
         btnEditProfile.setOnClickListener {
