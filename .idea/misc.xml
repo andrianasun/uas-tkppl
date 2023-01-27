@@ -4,54 +4,35 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_account.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_account2.xml" value="0.1388888888888889" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_address.xml" value="0.1388888888888889" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_chat.xml" value="0.11851851851851852" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_email.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_logout.xml" value="0.1388888888888889" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_notification.xml" value="0.1361111111111111" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_phone.xml" value="0.15925925925925927" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/ic_settings.xml" value="0.1388888888888889" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_button_bg.xml" value="0.14270833333333333" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/drawable/style_search_view_custom.xml" value="0.1361111111111111" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_all_categories.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_notification_detail.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_order_record.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_signin.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_signup.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/activity_welcome_screen.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_loading.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_dialog_signout.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_address_list.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_categories.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_categories_see_all.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_notification.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/custom_recycle_view_product.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/fragment_account.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 7/6. TKPPL/Tugas/Pra UAS/New/tkppl/tkppl-uas/app/src/main/res/menu/botton_nav_menu.xml" value="0.1" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic__star_half.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_calender.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_check.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_check_outline.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_checkout_outline.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_circle.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_close.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_greater.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_more.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_star.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_time.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_img_view_store_profile.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_rating_background.xml" value="0.204" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_add_address.xml" value="0.24010416666666667" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_address_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_checkout.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_order_record.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_order_success.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_product_detail.xml" value="0.2" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_shopping_cart.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_delivery_schedule.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_nego_fail.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_nego_success.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_negotiation.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_progress_bar.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dropdown_payment_item.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dropdown_product_weight_items.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_recycle_view_address_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_recycle_view_shopping_cart.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

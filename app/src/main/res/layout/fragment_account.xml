@@ -1,14 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AccountFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/textView7"
+        style="bold"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="0dp"
+        android:background="@color/main_yellow_color"
+        android:paddingHorizontal="@dimen/padding10"
+        android:text="@string/only_serve"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/name"
+        style="@style/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="80dp"
+        android:background="#FFF246"
+        android:padding="30dp"
+        android:paddingStart="150dp"
+        android:text="Bambang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/nameGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin50"
+        android:paddingStart="150dp"
+        android:text="bambang123@gmail.com"
+        app:layout_constraintBottom_toTopOf="@+id/btnEditProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_account2"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/btnAddressList"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin10"
+        android:backgroundTint="@color/white"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_address"
+        android:text="Address list"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/btnEditProfile"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditProfile" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin10"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_settings"
+        android:text="Settings"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/btnAddressList"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddressList" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="266dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_logout"
+        android:includeFontPadding="false"
+        android:onClick="alertClick"
+        android:text="Logout"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/btnSettings"
+        app:layout_constraintTop_toBottomOf="@+id/btnSettings" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="52dp"
+        tools:srcCompat="@tools:sample/avatars"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.159"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
