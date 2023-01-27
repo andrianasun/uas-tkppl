@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".AddressListActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_yellow_color"
+        android:paddingHorizontal="@dimen/padding10"
+        android:text="@string/only_serve"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addressList"
+        style="@style/titleText"
+        android:layout_width="101dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin50"
+        android:text="Address list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin50"
+        android:layout_marginEnd="@dimen/margin20"
+        android:text="Add"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:onClick="onBtnAddClicked"
+        app:layout_constraintBottom_toBottomOf="@+id/addressList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addressList"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/itemAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressList" />
+
+    <Button
+        android:id="@+id/btnSaveAddress"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:clickable="true"
+        android:text="Save address"
+        android:textColor="@color/black"
+        android:onClick="onBtnSaveAddressClicked"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemAddress" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

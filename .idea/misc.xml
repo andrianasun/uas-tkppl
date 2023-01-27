@@ -36,6 +36,7 @@
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/ic_time.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_img_view_store_profile.xml" value="0.204" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/drawable/style_rating_background.xml" value="0.204" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_add_address.xml" value="0.24010416666666667" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_address_list.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_checkout.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/activity_order_record.xml" value="0.25416666666666665" />
@@ -49,6 +50,7 @@
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dialog_progress_bar.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dropdown_payment_item.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_dropdown_product_weight_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_recycle_view_address_list.xml" value="0.25416666666666665" />
         <entry key="..\:/uas projek tkppl/uas-tkppl/app/src/main/res/layout/custom_recycle_view_shopping_cart.xml" value="0.25416666666666665" />
       </map>
     </option>
