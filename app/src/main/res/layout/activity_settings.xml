@@ -2,8 +2,94 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="bold"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/main_yellow_color"
+        android:paddingHorizontal="@dimen/padding10"
+        android:text="@string/only_serve"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvSetting"
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin50"
+        android:text="Settings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Switch
+        android:id="@+id/switch_darktheme"
+        android:layout_width="367dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/margin50"
+        android:checked="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Dark theme"
+        app:layout_constraintStart_toStartOf="@+id/tvSetting"
+        app:layout_constraintTop_toBottomOf="@+id/tvSetting" />
+
+    <Switch
+        android:id="@+id/switch_notification"
+        android:layout_width="367dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:checked="false"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:text="Notification"
+        app:layout_constraintStart_toStartOf="@+id/switch_darktheme"
+        app:layout_constraintTop_toBottomOf="@+id/switch_darktheme" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutLanguage"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="368dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="@dimen/margin10"
+        android:hint="Language"
+        app:layout_constraintStart_toStartOf="@+id/switch_notification"
+        app:layout_constraintTop_toBottomOf="@+id/switch_notification">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTvLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="English" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/saveSettings"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/margin20"
+        android:text="Save settings"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutLanguage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
